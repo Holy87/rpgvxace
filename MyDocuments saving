@@ -35,7 +35,7 @@ module Homesave
   #--------------------------------------------------------------------------
   # * Returns the game folder name
   #--------------------------------------------------------------------------
-  def self.folder_name; $data_system.game_title; end
+  def self.folder_name; load_data("Data/System.rvdata2").game_title; end
   #--------------------------------------------------------------------------
   # * Returns the MyDocuments path
   #--------------------------------------------------------------------------
