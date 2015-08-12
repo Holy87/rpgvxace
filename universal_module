@@ -164,7 +164,7 @@ $imported["H87_UniversalModule"] = 1.6
     be only used within Scene and Window classes, if you want to use in your
     custom classes, then include the Async_Downloads module.
     
-    ● download_async(url, method[, priority, folder])
+    ● download_async(url, method[, folder, priority])
       Starts a download from url. It launchs automatically the method when the
       download is completed.
       Examples:
