@@ -86,7 +86,7 @@ $imported["H87_UniversalModule"] = 1.6
  
     ● Win.homepath
       Returns the user path. I.E.:
-      C:/Users/username/                      in Windows Vista, 7, 8
+      C:/Users/username/                      from Windows Vista
       C:/Documents and Settings/username      in Windows 2000 and Xp
  
     ● Win.getFolderPath([symbol])
@@ -100,7 +100,7 @@ $imported["H87_UniversalModule"] = 1.6
         * if a symbol is not defined, it means :docs
 
         Example:
-        print Win.getFolderPath(:deskt) => "C:/Users/Francesco/Desktop"
+        print Win.getFolderPath(:dskt) => "C:/Users/Francesco/Desktop"
  
     ● Win.shutdown[(mode)]
       Shuts down the PC, settings by mode (0 for default):
