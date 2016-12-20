@@ -1,4 +1,3 @@
-require File.expand_path('rm_vx_data')
 $imported = {} if $imported == nil
 $imported["H87-XInput"] = 1.0
 #===============================================================================
@@ -636,8 +635,8 @@ class Game_System
   # * Gets the vibration power
   # @param [Integer] pad_index
   #--------------------------------------------------------------------------
-	def calc_vibration_power(pad_index = 0)
-		65535 * vibration_rate / 100
+	def calc_vibration_power(pad_index = 0) 
+    65535 * vibration_rate / 100
 	end
 end # game_system
 
